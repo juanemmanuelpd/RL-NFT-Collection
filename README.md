@@ -5,3 +5,19 @@ RL (Red Linuxera) is an NFT collection based on the ERC-721 standard. This NFT c
 * Mint the amount of NFTs you want
 * Image files remain secure thanks to the IPFS protocol
 * Use the Arbitrum network to deploy the ERC721 contract, a cheap, fast, and secure network
+## Technical details ⚙️
+* Framework CLI -> Foundry.
+* Forge version -> 1.1.0-stable.
+* Solidity compiler version -> 0.8.24.
+* Deployment network -> Arbitrum
+## Deploying the contract 🛠️
+1. Clone the GitHub repository.
+2. Open Visual Studio Code (you should already have Foundry installed).
+3. Select "File" > "Open Folder", select the cloned repository folder.
+4. In the project navigation bar, open the "stakingApp.sol" file located in the "src" folder.
+5. In the toolbar above, select "Terminal" > "New Terminal".
+6. Select the "Git bash" terminal (previously installed).
+7. Run the `forge build` command to compile the script.
+8. In the project navigation bar, open the "stakingAppTest.t.sol" file located in the "test" folder.
+9. Run the command `forge test --match-test` followed by the name of a test function to test it and verify the smart contract functions are working correctly. For example, run `forge test --match-test testStakingTokenCorrectlyDeployed -vvvv` to test the `testStakingTokenCorrectlyDeployed` function.
+10. Run `forge coverage` to generate a code coverage report, which allows you to verify which parts of the "stakingApp.sol" and "stakingToken.sol" scripts code (in the "src" folder) are executed by the tests. This helps identify areas outside the coverage that could be exposed to errors/vulnerabilities.
