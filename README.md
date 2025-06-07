@@ -31,5 +31,6 @@ RL (Red Linuxera) is an NFT collection based on the ERC-721 standard. This NFT c
 * function _baseURI() -> Sets the baseUri address in the ERC-721 contract to the one provided by the user.
 * function tokenURI() -> Sets the full address of the two NFT tokens to be mined, according to the baseUri and the agreed amount of tokens.
 ## Functions (DeployNFTCollection.s.sol) 💻
-*  function run()
+*  function run() -> Deploys tokens on the network using the user's private key.
 
+CODE IS LAW!
