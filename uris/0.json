@@ -1,0 +1,11 @@
+{
+    "name": "Red Linuxera NFT 0",
+    "description": "NFT Collection by Red Linuxera",
+    "image": "ipfs://bafybeia6yrftb6az4d7hqzfu2o2zjapnrcvhvn66xwfvcgxfsatdt2cvl4",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "0"
+        }
+    ]
+}
