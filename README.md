@@ -25,7 +25,7 @@ RL (Red Linuxera) is an NFT collection based on the ERC-721 standard. This NFT c
 13. Run the command `forge script script/DeployNFTCollection.s.sol --rpc-url https://arb1.arbitrum.io/rpc --broadcast --verify` to deploy the script and verify it within the Arbitrum network.
 14. Check the output of the terminal and copy the address of the deployed smart contract (RLNFTCollection).
 15. Enter the address of the NFT collection at https://arbiscan.io/ and within the "Contract" tab look for the "mint" function to mint the 2 tokens of the NFT collection (you must have Metamask or another wallet previously installed in your browser).
-16. Enter the address of the NFT collection at https://opensea.io/ to search for it and that's it. You can now start an auction for your NFTs.
+16. Enter your address of your wallet at https://opensea.io/ to search your  for tokens and that's it. You can now start an auction for your NFTs.
 ## Functions (RLNFTCollection.sol) 💻
 * function mint() -> Mint and verify that only the amount of tokens required by the user is minted.
 * function _baseURI() -> Sets the baseUri address in the ERC-721 contract to the one provided by the user.
