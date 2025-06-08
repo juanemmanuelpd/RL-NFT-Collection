@@ -1,7 +1,7 @@
 # RL NFT Collection
 ## Overview 🪙
 RL (Red Linuxera) is an NFT collection based on the ERC-721 standard. This NFT collection is deployed on the Arbitrum Network, an efficient and low-cost network.
-!(https://lime-causal-hare-88.mypinata.cloud/ipfs/bafybeia6yrftb6az4d7hqzfu2o2zjapnrcvhvn66xwfvcgxfsatdt2cvl4)
+![NFT](https://lime-causal-hare-88.mypinata.cloud/ipfs/bafybeia6yrftb6az4d7hqzfu2o2zjapnrcvhvn66xwfvcgxfsatdt2cvl4)
 ## Features 📃
 * Mint the amount of NFTs you want
 * Image files remain secure thanks to the IPFS protocol
